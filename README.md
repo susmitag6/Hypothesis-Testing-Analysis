@@ -67,7 +67,11 @@ hypothesis_testing/
 │   └── 12_training_t_distribution.png
 │
 ├── run_analysis.py              # Master script — runs everything end-to-end
+│
+└── project_report.ipynb.html    # Static HTML version of the project report generated from project_report.ipynb
+│
 └── README.md
+
 ```
 
 ---
