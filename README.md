@@ -49,6 +49,8 @@ hypothesis_testing/
 │   ├── hypothesis_tests.py      # Core testing library (Z, T, Chi-square)
 │   └── visualizations.py        # Publication-quality plotting functions
 │
+├── notebooks/project_report.ipynb
+│
 ├── results/                     # All generated plots (PNG)
 │   ├── 00_distribution_shapes.png
 │   ├── 01_manufacturing_z_test.png
