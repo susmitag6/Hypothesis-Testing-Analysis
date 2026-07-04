@@ -195,8 +195,41 @@ def plot_distribution_shapes(save_path=None):
 
 def plot_ab_test(df, metric_col, group_col, alpha=0.05, save_path=None):
     """Comprehensive A/B test visualization: distributions, means, conversion."""
-    ctrl = df[df[group_col]=='control'][metric_col].dropna()
-    trt  = df[df[group_col]=='treatment'][metric_col].dropna()
+    # Clean string matching: normalize column values to lowercase for checking
+    group_series = df[group_col].astype(str).str.lower()
+    
+    # Dynamically match 'control' or 'placebo' for the baseline group
+    is_ctrl = group_series.isin(['control', 'placebo'])
+    # Match 'treatment', 'drug', or whatever else is the variant
+    is_trt = group_series.isin(['treatment', 'drug', 'variant', 'test'])
+    
+    # If standard names aren't used, fall back to the two unique values present
+    unique_groups = df[group_col].dropna().unique()
+    if not is_ctrl.any() and len(unique_groups) >= 2:
+        ctrl_name, trt_name = unique_groups[0], unique_groups[1]
+        ctrl = df[df[group_col] == ctrl_name][metric_col].dropna()
+        trt = df[df[group_col] == trt_name][metric_col].dropna()
+    else:
+        ctrl = df[is_ctrl][metric_col].dropna()
+        trt = df[is_trt][metric_col].dropna()
+        ctrl_name, trt_name = 'Control', 'Treatment'
+
+    # --- Leave the rest of your visual code exactly as it is ---
+
+#    ctrl = df[df[group_col]=='drug'][metric_col].dropna()
+#    trt  = df[df[group_col]=='placebo'][metric_col].dropna()
+
+    # --- DEBUGGING HEALTH CHECK ---
+    print(f"Control group size: {len(ctrl)}, Variance: {ctrl.var():.4f}")
+    print(f"Treatment group size: {len(trt)}, Variance: {trt.var():.4f}")
+
+    if len(ctrl) < 2 or len(trt) < 2:
+        raise ValueError("A/B test failed: One of your groups has fewer than 2 data points.")
+        
+    if ctrl.var() == 0 and trt.var() == 0:
+        print("Warning: Both groups have 0 variance. P-value cannot be calculated via t-test.")
+        # Optional fallback: manually set pval if means are different or identical
+        pval = 0.0 if ctrl.mean() != trt.mean() else 1.0
 
     fig = plt.figure(figsize=(14, 5))
     gs = GridSpec(1, 3, figure=fig, wspace=0.35)
@@ -236,9 +269,18 @@ def plot_ab_test(df, metric_col, group_col, alpha=0.05, save_path=None):
         ax3.text(bar.get_x()+bar.get_width()/2, bar.get_height()+max(cis)*0.1,
                  f'{m:.1f}', ha='center', va='bottom', fontweight='bold', fontsize=10)
 
-    stat, pval = stats.ttest_ind(ctrl, trt)
-    fig.suptitle(f'A/B Test: {metric_col} — p={pval:.4f} {"(significant ✗)" if pval<alpha else "(not significant ✓)"}',
-                 fontsize=13, fontweight='bold', color=CORAL if pval<alpha else TEAL)
+    stat, pval = stats.ttest_ind(ctrl, trt, equal_var=False)
+    print("pval", pval)
+    # Corrected text flags
+    sig_text = "(Significant ✓)" if pval < alpha else "(Not Significant ✗)"
+
+    title_color = CORAL if pval < alpha else TEAL
+    
+    fig.suptitle(f'A/B Test: {metric_col} — p={pval:.12f} {sig_text}',
+                 fontsize=13, fontweight='bold', color=title_color)
+
+#    fig.suptitle(f'A/B Test: {metric_col} — p={pval:.4f} {"(significant ✗)" if pval<alpha else "(not significant ✓)"}',
+#                 fontsize=13, fontweight='bold', color=CORAL if pval<alpha else TEAL)
     plt.show()
     return _save(fig, save_path) if save_path else fig
 
