@@ -1,0 +1,801 @@
+respondent_id,gender,age_group,region,satisfaction,product_category,purchase_frequency,recommend
+1,Male,36-50,East,Very satisfied,Electronics,Weekly,No
+2,Male,26-35,North,Satisfied,Sports,Monthly,No
+3,Male,18-25,East,Very satisfied,Home,Weekly,Maybe
+4,Female,36-50,West,Satisfied,Home,Rarely,No
+5,Male,51+,South,Neutral,Electronics,Weekly,No
+6,Male,18-25,West,Satisfied,Electronics,Monthly,Yes
+7,Female,18-25,South,Very satisfied,Sports,Weekly,Yes
+8,Female,51+,West,Satisfied,Sports,Weekly,Yes
+9,Male,36-50,South,Neutral,Electronics,Monthly,Maybe
+10,Female,36-50,South,Satisfied,Clothing,Daily,Yes
+11,Female,18-25,North,Satisfied,Electronics,Weekly,Yes
+12,Male,51+,South,Satisfied,Electronics,Weekly,Maybe
+13,Non-binary,26-35,North,Very satisfied,Electronics,Daily,Yes
+14,Male,51+,West,Neutral,Electronics,Rarely,Yes
+15,Female,18-25,West,Neutral,Books,Monthly,Yes
+16,Male,51+,South,Neutral,Electronics,Rarely,Yes
+17,Male,36-50,West,Satisfied,Sports,Monthly,Yes
+18,Male,36-50,East,Dissatisfied,Clothing,Daily,Maybe
+19,Female,18-25,East,Dissatisfied,Clothing,Monthly,Yes
+20,Male,36-50,East,Satisfied,Sports,Daily,No
+21,Non-binary,36-50,West,Satisfied,Books,Monthly,No
+22,Female,36-50,East,Neutral,Electronics,Weekly,Yes
+23,Female,36-50,North,Neutral,Clothing,Monthly,Maybe
+24,Male,26-35,West,Satisfied,Clothing,Rarely,Maybe
+25,Male,18-25,East,Dissatisfied,Home,Rarely,Maybe
+26,Male,51+,West,Very satisfied,Books,Monthly,Yes
+27,Female,51+,East,Satisfied,Clothing,Monthly,Maybe
+28,Male,18-25,North,Very satisfied,Clothing,Daily,Yes
+29,Female,36-50,South,Very satisfied,Clothing,Rarely,No
+30,Male,18-25,North,Very satisfied,Clothing,Rarely,Yes
+31,Female,51+,South,Satisfied,Electronics,Monthly,Yes
+32,Male,18-25,East,Neutral,Sports,Rarely,Maybe
+33,Female,51+,North,Very satisfied,Books,Rarely,Maybe
+34,Non-binary,36-50,South,Neutral,Clothing,Rarely,Maybe
+35,Female,18-25,North,Satisfied,Books,Rarely,Yes
+36,Female,51+,West,Very satisfied,Electronics,Weekly,Yes
+37,Female,36-50,South,Very satisfied,Clothing,Rarely,Maybe
+38,Non-binary,36-50,East,Very satisfied,Home,Weekly,Yes
+39,Female,26-35,West,Satisfied,Clothing,Monthly,No
+40,Female,26-35,East,Satisfied,Clothing,Daily,Yes
+41,Female,51+,East,Satisfied,Clothing,Rarely,Yes
+42,Female,36-50,West,Very satisfied,Home,Rarely,Maybe
+43,Female,18-25,South,Dissatisfied,Home,Monthly,Yes
+44,Female,26-35,West,Satisfied,Home,Weekly,No
+45,Male,36-50,East,Neutral,Electronics,Rarely,Yes
+46,Female,18-25,North,Very satisfied,Books,Rarely,Yes
+47,Male,18-25,South,Satisfied,Home,Monthly,Yes
+48,Female,18-25,North,Satisfied,Books,Rarely,No
+49,Female,36-50,South,Neutral,Home,Weekly,Maybe
+50,Female,26-35,South,Satisfied,Home,Monthly,Maybe
+51,Female,26-35,North,Satisfied,Electronics,Monthly,No
+52,Female,18-25,East,Satisfied,Clothing,Weekly,No
+53,Male,36-50,West,Very dissatisfied,Books,Monthly,Maybe
+54,Female,36-50,North,Satisfied,Electronics,Rarely,Yes
+55,Male,36-50,East,Very satisfied,Sports,Weekly,Yes
+56,Female,36-50,North,Satisfied,Electronics,Rarely,Maybe
+57,Female,36-50,West,Satisfied,Clothing,Weekly,No
+58,Male,36-50,West,Very satisfied,Sports,Monthly,Yes
+59,Female,26-35,South,Neutral,Electronics,Rarely,Maybe
+60,Male,26-35,North,Neutral,Clothing,Weekly,Yes
+61,Male,18-25,North,Satisfied,Clothing,Monthly,Maybe
+62,Male,26-35,South,Very dissatisfied,Home,Monthly,Maybe
+63,Non-binary,36-50,East,Neutral,Clothing,Monthly,Maybe
+64,Female,51+,East,Neutral,Electronics,Monthly,Yes
+65,Female,26-35,South,Satisfied,Sports,Weekly,Maybe
+66,Male,36-50,East,Neutral,Clothing,Weekly,No
+67,Male,26-35,East,Very satisfied,Home,Rarely,Maybe
+68,Female,36-50,East,Neutral,Electronics,Weekly,Yes
+69,Female,18-25,South,Dissatisfied,Electronics,Weekly,Yes
+70,Female,18-25,West,Very satisfied,Home,Weekly,Yes
+71,Female,18-25,South,Neutral,Electronics,Weekly,Yes
+72,Male,51+,North,Satisfied,Clothing,Daily,Yes
+73,Male,18-25,North,Satisfied,Home,Weekly,Yes
+74,Male,36-50,North,Dissatisfied,Clothing,Weekly,Yes
+75,Male,51+,East,Very satisfied,Books,Weekly,No
+76,Female,36-50,North,Very satisfied,Electronics,Weekly,Yes
+77,Female,26-35,East,Dissatisfied,Home,Weekly,Yes
+78,Female,26-35,East,Satisfied,Electronics,Monthly,Yes
+79,Male,36-50,East,Neutral,Home,Monthly,Maybe
+80,Male,26-35,North,Neutral,Books,Monthly,Yes
+81,Female,36-50,North,Very satisfied,Home,Monthly,Yes
+82,Female,36-50,North,Very satisfied,Electronics,Monthly,No
+83,Female,36-50,East,Very dissatisfied,Clothing,Monthly,No
+84,Female,51+,East,Very satisfied,Home,Rarely,Yes
+85,Male,36-50,West,Satisfied,Sports,Monthly,Yes
+86,Non-binary,36-50,West,Satisfied,Electronics,Weekly,Yes
+87,Male,26-35,South,Dissatisfied,Home,Monthly,Yes
+88,Female,36-50,South,Very dissatisfied,Electronics,Monthly,Yes
+89,Female,36-50,East,Very satisfied,Clothing,Monthly,Yes
+90,Female,26-35,South,Satisfied,Sports,Monthly,Yes
+91,Female,36-50,West,Neutral,Sports,Monthly,Yes
+92,Female,18-25,West,Neutral,Electronics,Daily,Maybe
+93,Female,26-35,East,Satisfied,Electronics,Monthly,Yes
+94,Female,51+,South,Very satisfied,Electronics,Rarely,Maybe
+95,Male,26-35,East,Satisfied,Clothing,Monthly,Maybe
+96,Female,18-25,South,Neutral,Electronics,Weekly,Maybe
+97,Non-binary,18-25,East,Very dissatisfied,Clothing,Rarely,Yes
+98,Female,26-35,West,Satisfied,Electronics,Rarely,Yes
+99,Non-binary,26-35,North,Very satisfied,Electronics,Rarely,Yes
+100,Male,26-35,South,Very satisfied,Sports,Monthly,Maybe
+101,Female,36-50,East,Dissatisfied,Clothing,Monthly,Yes
+102,Male,51+,West,Satisfied,Electronics,Monthly,Yes
+103,Female,18-25,West,Neutral,Books,Monthly,Yes
+104,Female,36-50,West,Neutral,Sports,Monthly,Yes
+105,Female,18-25,North,Dissatisfied,Clothing,Weekly,Maybe
+106,Female,26-35,East,Very satisfied,Books,Rarely,Yes
+107,Male,51+,North,Satisfied,Sports,Rarely,No
+108,Non-binary,18-25,East,Dissatisfied,Clothing,Monthly,Yes
+109,Male,18-25,West,Neutral,Books,Weekly,Yes
+110,Female,26-35,East,Very satisfied,Clothing,Monthly,Yes
+111,Female,51+,West,Very satisfied,Sports,Monthly,No
+112,Female,18-25,East,Very satisfied,Clothing,Monthly,Maybe
+113,Female,26-35,South,Very dissatisfied,Home,Monthly,Maybe
+114,Female,36-50,North,Very satisfied,Clothing,Weekly,Yes
+115,Male,26-35,North,Dissatisfied,Books,Rarely,Maybe
+116,Male,18-25,North,Very satisfied,Clothing,Monthly,Yes
+117,Male,18-25,South,Very satisfied,Sports,Weekly,Yes
+118,Female,36-50,South,Dissatisfied,Books,Monthly,No
+119,Female,36-50,West,Dissatisfied,Electronics,Rarely,Yes
+120,Female,36-50,West,Very satisfied,Electronics,Weekly,Yes
+121,Female,18-25,North,Very satisfied,Books,Rarely,Yes
+122,Female,26-35,South,Satisfied,Electronics,Monthly,No
+123,Male,36-50,South,Very satisfied,Home,Rarely,Yes
+124,Female,26-35,North,Dissatisfied,Clothing,Weekly,Yes
+125,Female,26-35,East,Satisfied,Clothing,Monthly,Yes
+126,Male,36-50,West,Satisfied,Electronics,Monthly,No
+127,Female,51+,West,Very satisfied,Electronics,Rarely,Yes
+128,Female,36-50,East,Very satisfied,Clothing,Monthly,Maybe
+129,Male,51+,North,Satisfied,Books,Weekly,No
+130,Male,36-50,South,Very satisfied,Electronics,Rarely,Yes
+131,Male,51+,West,Neutral,Electronics,Daily,No
+132,Female,36-50,South,Neutral,Electronics,Rarely,Yes
+133,Male,18-25,North,Very satisfied,Home,Weekly,Maybe
+134,Male,26-35,North,Neutral,Books,Monthly,Yes
+135,Male,36-50,West,Dissatisfied,Clothing,Monthly,Yes
+136,Male,26-35,North,Satisfied,Sports,Monthly,No
+137,Female,26-35,North,Dissatisfied,Home,Rarely,Yes
+138,Female,36-50,South,Very satisfied,Sports,Monthly,Yes
+139,Male,51+,East,Satisfied,Books,Monthly,Maybe
+140,Female,26-35,North,Very satisfied,Electronics,Monthly,Maybe
+141,Male,36-50,West,Very dissatisfied,Books,Weekly,Yes
+142,Male,36-50,West,Satisfied,Electronics,Monthly,Maybe
+143,Male,18-25,South,Satisfied,Clothing,Monthly,Yes
+144,Female,18-25,North,Neutral,Clothing,Monthly,Yes
+145,Male,51+,East,Dissatisfied,Electronics,Rarely,No
+146,Female,51+,North,Dissatisfied,Electronics,Weekly,Yes
+147,Male,51+,West,Neutral,Clothing,Rarely,No
+148,Male,26-35,South,Neutral,Home,Rarely,Yes
+149,Female,26-35,North,Satisfied,Electronics,Rarely,Maybe
+150,Female,51+,East,Satisfied,Electronics,Daily,Yes
+151,Male,51+,South,Satisfied,Home,Rarely,Yes
+152,Male,36-50,South,Neutral,Clothing,Weekly,Yes
+153,Female,26-35,West,Satisfied,Sports,Monthly,No
+154,Male,36-50,West,Dissatisfied,Clothing,Rarely,Yes
+155,Male,36-50,East,Very satisfied,Home,Monthly,Yes
+156,Male,36-50,West,Neutral,Electronics,Monthly,Yes
+157,Female,36-50,North,Satisfied,Electronics,Monthly,Yes
+158,Male,36-50,North,Satisfied,Home,Monthly,No
+159,Female,36-50,South,Very satisfied,Sports,Monthly,Maybe
+160,Female,26-35,East,Very satisfied,Home,Rarely,Yes
+161,Non-binary,26-35,West,Very dissatisfied,Home,Weekly,Yes
+162,Female,36-50,South,Dissatisfied,Electronics,Weekly,Yes
+163,Non-binary,26-35,South,Very satisfied,Home,Daily,Yes
+164,Female,51+,East,Satisfied,Clothing,Weekly,Yes
+165,Male,36-50,West,Satisfied,Clothing,Weekly,No
+166,Male,51+,East,Satisfied,Clothing,Weekly,Yes
+167,Male,26-35,East,Satisfied,Electronics,Monthly,Maybe
+168,Female,18-25,West,Dissatisfied,Books,Weekly,Yes
+169,Female,18-25,North,Dissatisfied,Electronics,Monthly,Yes
+170,Female,36-50,South,Very satisfied,Books,Weekly,Maybe
+171,Non-binary,26-35,South,Neutral,Electronics,Rarely,Yes
+172,Male,26-35,North,Very satisfied,Books,Monthly,Maybe
+173,Female,26-35,East,Satisfied,Electronics,Weekly,Yes
+174,Male,36-50,North,Dissatisfied,Electronics,Rarely,No
+175,Female,26-35,South,Satisfied,Electronics,Monthly,Yes
+176,Female,26-35,West,Satisfied,Electronics,Rarely,Yes
+177,Female,18-25,West,Dissatisfied,Electronics,Monthly,Yes
+178,Female,51+,North,Neutral,Electronics,Monthly,No
+179,Male,26-35,South,Satisfied,Clothing,Monthly,No
+180,Male,18-25,North,Satisfied,Electronics,Monthly,Maybe
+181,Female,18-25,North,Neutral,Sports,Monthly,No
+182,Female,18-25,South,Very satisfied,Electronics,Monthly,Yes
+183,Female,26-35,West,Very satisfied,Home,Monthly,Yes
+184,Non-binary,36-50,South,Dissatisfied,Clothing,Monthly,Maybe
+185,Male,51+,North,Very satisfied,Books,Monthly,Maybe
+186,Female,26-35,North,Neutral,Electronics,Monthly,No
+187,Non-binary,36-50,West,Satisfied,Electronics,Monthly,Yes
+188,Female,51+,North,Neutral,Home,Monthly,Maybe
+189,Female,26-35,North,Neutral,Clothing,Daily,Yes
+190,Male,26-35,West,Very dissatisfied,Clothing,Rarely,Yes
+191,Male,26-35,South,Very satisfied,Clothing,Rarely,Yes
+192,Male,51+,East,Satisfied,Clothing,Monthly,Yes
+193,Male,18-25,South,Neutral,Home,Monthly,No
+194,Female,26-35,East,Dissatisfied,Home,Monthly,Yes
+195,Female,36-50,South,Very satisfied,Clothing,Monthly,Yes
+196,Male,36-50,West,Very satisfied,Home,Rarely,Yes
+197,Male,26-35,West,Satisfied,Clothing,Weekly,No
+198,Male,36-50,West,Satisfied,Books,Daily,Yes
+199,Female,36-50,East,Neutral,Home,Rarely,Yes
+200,Non-binary,36-50,South,Neutral,Clothing,Monthly,Yes
+201,Female,26-35,West,Very satisfied,Home,Monthly,Yes
+202,Female,26-35,East,Neutral,Books,Rarely,No
+203,Male,26-35,West,Neutral,Clothing,Monthly,Yes
+204,Male,51+,North,Satisfied,Home,Monthly,Yes
+205,Female,18-25,North,Satisfied,Electronics,Monthly,Maybe
+206,Female,18-25,West,Neutral,Books,Monthly,Yes
+207,Male,26-35,East,Satisfied,Electronics,Monthly,Maybe
+208,Male,51+,North,Very dissatisfied,Electronics,Rarely,No
+209,Male,36-50,West,Very satisfied,Books,Weekly,Yes
+210,Female,26-35,West,Dissatisfied,Clothing,Weekly,Yes
+211,Female,51+,East,Neutral,Electronics,Monthly,Maybe
+212,Male,51+,East,Neutral,Sports,Monthly,No
+213,Female,26-35,North,Very satisfied,Clothing,Monthly,No
+214,Male,36-50,West,Dissatisfied,Books,Weekly,No
+215,Non-binary,51+,North,Satisfied,Clothing,Daily,Yes
+216,Male,26-35,South,Neutral,Electronics,Rarely,Yes
+217,Female,26-35,West,Dissatisfied,Books,Monthly,Yes
+218,Male,36-50,East,Satisfied,Clothing,Monthly,No
+219,Female,36-50,South,Dissatisfied,Clothing,Monthly,Maybe
+220,Male,18-25,East,Neutral,Electronics,Weekly,Yes
+221,Male,18-25,East,Neutral,Electronics,Monthly,Yes
+222,Male,36-50,South,Dissatisfied,Home,Rarely,Maybe
+223,Female,18-25,North,Satisfied,Electronics,Monthly,Yes
+224,Male,51+,South,Satisfied,Electronics,Rarely,Yes
+225,Male,26-35,West,Neutral,Electronics,Monthly,Yes
+226,Female,36-50,North,Satisfied,Home,Monthly,Yes
+227,Female,36-50,North,Very satisfied,Books,Rarely,Yes
+228,Male,26-35,West,Very satisfied,Home,Weekly,Yes
+229,Male,18-25,West,Very satisfied,Sports,Monthly,Yes
+230,Female,18-25,East,Very satisfied,Sports,Rarely,No
+231,Female,36-50,South,Neutral,Clothing,Weekly,Maybe
+232,Female,26-35,West,Very satisfied,Clothing,Weekly,Maybe
+233,Male,26-35,South,Satisfied,Home,Monthly,Maybe
+234,Female,18-25,North,Satisfied,Clothing,Weekly,Maybe
+235,Male,26-35,West,Very dissatisfied,Electronics,Rarely,Yes
+236,Male,26-35,North,Satisfied,Clothing,Weekly,Yes
+237,Male,18-25,East,Neutral,Home,Monthly,Yes
+238,Female,18-25,East,Satisfied,Electronics,Rarely,Yes
+239,Female,26-35,West,Very satisfied,Home,Weekly,Yes
+240,Female,36-50,West,Very satisfied,Home,Rarely,No
+241,Male,26-35,West,Satisfied,Electronics,Weekly,No
+242,Female,26-35,North,Very satisfied,Electronics,Rarely,Yes
+243,Male,36-50,West,Neutral,Electronics,Monthly,No
+244,Non-binary,51+,East,Satisfied,Clothing,Weekly,Yes
+245,Female,26-35,West,Neutral,Clothing,Monthly,Yes
+246,Female,26-35,West,Very satisfied,Clothing,Monthly,Yes
+247,Male,36-50,North,Neutral,Home,Weekly,Maybe
+248,Female,51+,South,Very satisfied,Electronics,Monthly,Maybe
+249,Female,26-35,East,Neutral,Books,Monthly,Yes
+250,Female,36-50,South,Satisfied,Clothing,Rarely,Maybe
+251,Female,26-35,North,Satisfied,Home,Rarely,Yes
+252,Female,26-35,West,Dissatisfied,Clothing,Rarely,Yes
+253,Female,36-50,West,Satisfied,Clothing,Daily,Yes
+254,Female,26-35,East,Very satisfied,Electronics,Monthly,No
+255,Male,26-35,West,Dissatisfied,Electronics,Weekly,Yes
+256,Male,18-25,North,Satisfied,Clothing,Weekly,Yes
+257,Female,51+,South,Neutral,Clothing,Monthly,Yes
+258,Male,51+,East,Satisfied,Electronics,Rarely,Yes
+259,Male,18-25,West,Satisfied,Home,Rarely,Yes
+260,Male,36-50,West,Neutral,Sports,Rarely,Maybe
+261,Female,18-25,South,Very satisfied,Books,Monthly,Yes
+262,Male,36-50,South,Dissatisfied,Electronics,Rarely,Maybe
+263,Female,51+,West,Satisfied,Home,Monthly,Maybe
+264,Non-binary,26-35,West,Very satisfied,Electronics,Rarely,Yes
+265,Female,26-35,North,Satisfied,Home,Weekly,Yes
+266,Female,36-50,South,Neutral,Clothing,Weekly,No
+267,Male,36-50,South,Dissatisfied,Electronics,Monthly,Yes
+268,Male,26-35,South,Neutral,Electronics,Weekly,Yes
+269,Male,36-50,North,Satisfied,Clothing,Weekly,Yes
+270,Non-binary,51+,South,Neutral,Home,Weekly,No
+271,Female,26-35,North,Neutral,Electronics,Rarely,Yes
+272,Male,18-25,East,Satisfied,Electronics,Rarely,Yes
+273,Female,26-35,East,Satisfied,Electronics,Monthly,Yes
+274,Male,36-50,North,Satisfied,Books,Rarely,Maybe
+275,Female,26-35,East,Dissatisfied,Clothing,Rarely,No
+276,Male,18-25,South,Neutral,Sports,Weekly,Yes
+277,Male,26-35,South,Satisfied,Home,Monthly,Yes
+278,Male,18-25,North,Very satisfied,Home,Rarely,Yes
+279,Male,36-50,West,Very satisfied,Electronics,Rarely,No
+280,Female,18-25,South,Dissatisfied,Electronics,Monthly,Yes
+281,Female,36-50,West,Neutral,Clothing,Monthly,No
+282,Male,26-35,West,Neutral,Electronics,Rarely,Maybe
+283,Female,51+,West,Satisfied,Home,Monthly,Yes
+284,Male,26-35,East,Neutral,Home,Weekly,Maybe
+285,Female,18-25,East,Very satisfied,Electronics,Monthly,No
+286,Male,36-50,North,Neutral,Home,Monthly,Maybe
+287,Male,26-35,East,Dissatisfied,Electronics,Weekly,Maybe
+288,Male,36-50,West,Very satisfied,Electronics,Monthly,Yes
+289,Male,51+,West,Satisfied,Electronics,Monthly,Yes
+290,Non-binary,26-35,East,Very satisfied,Clothing,Weekly,Yes
+291,Male,36-50,East,Satisfied,Home,Monthly,Yes
+292,Male,26-35,West,Neutral,Electronics,Rarely,Yes
+293,Male,36-50,North,Satisfied,Home,Monthly,Maybe
+294,Male,18-25,West,Neutral,Electronics,Rarely,Yes
+295,Male,51+,North,Neutral,Sports,Monthly,Yes
+296,Male,18-25,South,Dissatisfied,Home,Weekly,No
+297,Female,26-35,West,Dissatisfied,Home,Monthly,Maybe
+298,Male,51+,East,Neutral,Books,Rarely,No
+299,Female,18-25,East,Satisfied,Electronics,Daily,Yes
+300,Male,26-35,West,Very satisfied,Electronics,Weekly,Yes
+301,Male,36-50,North,Satisfied,Clothing,Monthly,Yes
+302,Female,51+,East,Very satisfied,Clothing,Monthly,Maybe
+303,Female,36-50,South,Dissatisfied,Books,Rarely,Maybe
+304,Male,18-25,East,Satisfied,Electronics,Weekly,Yes
+305,Male,36-50,North,Dissatisfied,Books,Monthly,No
+306,Male,26-35,West,Neutral,Books,Rarely,Maybe
+307,Male,51+,East,Dissatisfied,Electronics,Monthly,Yes
+308,Female,36-50,West,Dissatisfied,Home,Monthly,No
+309,Female,26-35,West,Very satisfied,Clothing,Monthly,Yes
+310,Non-binary,36-50,South,Neutral,Electronics,Daily,Yes
+311,Male,36-50,South,Satisfied,Electronics,Rarely,Maybe
+312,Female,36-50,West,Very dissatisfied,Electronics,Weekly,No
+313,Male,18-25,North,Neutral,Electronics,Weekly,Maybe
+314,Female,18-25,South,Very satisfied,Books,Monthly,Yes
+315,Male,26-35,East,Dissatisfied,Sports,Monthly,Yes
+316,Female,26-35,South,Satisfied,Home,Weekly,Yes
+317,Male,26-35,West,Satisfied,Clothing,Daily,Maybe
+318,Female,18-25,South,Satisfied,Home,Weekly,Yes
+319,Female,51+,North,Dissatisfied,Sports,Weekly,Yes
+320,Female,18-25,South,Dissatisfied,Electronics,Weekly,Yes
+321,Male,51+,North,Neutral,Sports,Monthly,Yes
+322,Female,51+,East,Satisfied,Sports,Weekly,Yes
+323,Male,36-50,South,Satisfied,Home,Monthly,Maybe
+324,Male,18-25,East,Satisfied,Clothing,Monthly,Yes
+325,Female,26-35,West,Very satisfied,Books,Monthly,Maybe
+326,Non-binary,51+,East,Neutral,Clothing,Weekly,Yes
+327,Female,51+,South,Satisfied,Sports,Monthly,Yes
+328,Male,51+,South,Neutral,Electronics,Rarely,Yes
+329,Female,51+,North,Very satisfied,Home,Rarely,No
+330,Female,18-25,South,Satisfied,Electronics,Monthly,No
+331,Male,36-50,West,Satisfied,Electronics,Monthly,No
+332,Female,36-50,North,Satisfied,Sports,Monthly,Maybe
+333,Female,26-35,South,Satisfied,Home,Monthly,Yes
+334,Female,26-35,South,Satisfied,Clothing,Weekly,Yes
+335,Male,26-35,South,Satisfied,Sports,Monthly,Yes
+336,Female,18-25,South,Neutral,Home,Rarely,Yes
+337,Male,18-25,West,Satisfied,Sports,Monthly,Yes
+338,Male,18-25,South,Satisfied,Books,Weekly,Yes
+339,Female,26-35,North,Satisfied,Sports,Rarely,Yes
+340,Male,36-50,South,Neutral,Home,Monthly,Yes
+341,Female,26-35,North,Very satisfied,Sports,Monthly,Yes
+342,Male,36-50,North,Satisfied,Electronics,Monthly,Maybe
+343,Female,51+,South,Very satisfied,Clothing,Monthly,Yes
+344,Female,18-25,West,Very satisfied,Home,Weekly,Yes
+345,Female,18-25,South,Very satisfied,Books,Monthly,Maybe
+346,Female,26-35,South,Very satisfied,Home,Monthly,Maybe
+347,Female,36-50,North,Very satisfied,Sports,Monthly,Maybe
+348,Female,26-35,East,Dissatisfied,Home,Weekly,Yes
+349,Male,26-35,East,Satisfied,Clothing,Rarely,No
+350,Female,18-25,West,Satisfied,Electronics,Weekly,Yes
+351,Male,26-35,North,Satisfied,Electronics,Monthly,Yes
+352,Male,51+,West,Very dissatisfied,Books,Monthly,No
+353,Male,26-35,South,Satisfied,Electronics,Rarely,Yes
+354,Male,36-50,South,Neutral,Electronics,Monthly,Yes
+355,Male,18-25,West,Neutral,Clothing,Rarely,Maybe
+356,Male,18-25,North,Satisfied,Home,Monthly,No
+357,Male,26-35,South,Very dissatisfied,Electronics,Rarely,Maybe
+358,Male,36-50,North,Very satisfied,Electronics,Weekly,Maybe
+359,Male,26-35,South,Satisfied,Books,Monthly,No
+360,Female,18-25,South,Very satisfied,Electronics,Rarely,Yes
+361,Male,36-50,West,Neutral,Electronics,Monthly,Yes
+362,Male,18-25,West,Very satisfied,Electronics,Rarely,Yes
+363,Male,36-50,North,Neutral,Books,Monthly,Yes
+364,Male,51+,East,Very satisfied,Electronics,Rarely,No
+365,Female,26-35,East,Satisfied,Sports,Weekly,Yes
+366,Male,18-25,East,Satisfied,Electronics,Weekly,Maybe
+367,Female,36-50,South,Dissatisfied,Sports,Monthly,No
+368,Male,26-35,East,Very satisfied,Home,Rarely,Yes
+369,Male,51+,West,Neutral,Home,Monthly,Yes
+370,Male,36-50,East,Neutral,Electronics,Monthly,Yes
+371,Male,26-35,East,Dissatisfied,Books,Monthly,Yes
+372,Male,36-50,East,Dissatisfied,Home,Rarely,Yes
+373,Female,18-25,East,Very dissatisfied,Books,Weekly,Maybe
+374,Female,26-35,East,Very satisfied,Books,Monthly,Yes
+375,Male,36-50,North,Satisfied,Electronics,Monthly,Yes
+376,Male,36-50,West,Satisfied,Clothing,Monthly,Yes
+377,Male,36-50,East,Satisfied,Electronics,Monthly,Yes
+378,Male,36-50,South,Satisfied,Sports,Daily,No
+379,Female,18-25,North,Neutral,Books,Rarely,Maybe
+380,Non-binary,18-25,South,Very satisfied,Electronics,Monthly,Yes
+381,Male,18-25,West,Very satisfied,Clothing,Rarely,Maybe
+382,Female,36-50,East,Neutral,Books,Monthly,Yes
+383,Female,18-25,West,Dissatisfied,Electronics,Weekly,Yes
+384,Female,26-35,East,Neutral,Books,Monthly,Yes
+385,Male,26-35,East,Very satisfied,Electronics,Rarely,Yes
+386,Male,36-50,South,Very dissatisfied,Clothing,Monthly,Yes
+387,Female,26-35,West,Satisfied,Books,Monthly,No
+388,Female,18-25,East,Neutral,Clothing,Rarely,Yes
+389,Non-binary,26-35,West,Very satisfied,Clothing,Monthly,Maybe
+390,Female,36-50,East,Satisfied,Home,Monthly,Yes
+391,Male,36-50,West,Satisfied,Clothing,Weekly,Maybe
+392,Non-binary,18-25,West,Very dissatisfied,Books,Weekly,No
+393,Male,36-50,East,Satisfied,Home,Monthly,Yes
+394,Male,18-25,West,Neutral,Electronics,Weekly,Yes
+395,Female,36-50,East,Satisfied,Electronics,Monthly,Maybe
+396,Male,36-50,East,Very satisfied,Home,Rarely,Yes
+397,Female,26-35,East,Satisfied,Books,Monthly,Yes
+398,Male,18-25,North,Satisfied,Home,Monthly,Maybe
+399,Male,36-50,East,Neutral,Electronics,Weekly,Maybe
+400,Male,18-25,West,Satisfied,Home,Weekly,Maybe
+401,Female,51+,North,Dissatisfied,Electronics,Weekly,No
+402,Male,36-50,East,Neutral,Home,Monthly,Yes
+403,Male,36-50,West,Very satisfied,Home,Monthly,Yes
+404,Female,36-50,West,Neutral,Books,Weekly,No
+405,Male,18-25,West,Dissatisfied,Books,Monthly,Yes
+406,Male,51+,North,Neutral,Clothing,Monthly,Yes
+407,Female,51+,South,Satisfied,Electronics,Rarely,No
+408,Male,26-35,South,Neutral,Clothing,Monthly,Yes
+409,Female,36-50,North,Very satisfied,Books,Weekly,No
+410,Male,36-50,East,Neutral,Sports,Monthly,Yes
+411,Male,36-50,South,Satisfied,Home,Monthly,Yes
+412,Male,26-35,South,Very satisfied,Clothing,Rarely,No
+413,Male,26-35,West,Satisfied,Home,Weekly,Maybe
+414,Female,36-50,West,Very satisfied,Electronics,Rarely,Yes
+415,Female,36-50,East,Satisfied,Clothing,Weekly,Maybe
+416,Male,26-35,South,Satisfied,Clothing,Monthly,Yes
+417,Male,26-35,West,Dissatisfied,Sports,Weekly,Yes
+418,Male,51+,North,Neutral,Clothing,Weekly,Yes
+419,Female,26-35,East,Neutral,Electronics,Monthly,Yes
+420,Female,36-50,West,Satisfied,Electronics,Monthly,Yes
+421,Male,26-35,West,Very satisfied,Books,Monthly,No
+422,Male,26-35,West,Satisfied,Electronics,Monthly,No
+423,Female,36-50,North,Neutral,Home,Monthly,Maybe
+424,Female,36-50,North,Satisfied,Clothing,Monthly,Maybe
+425,Male,51+,West,Satisfied,Clothing,Weekly,Maybe
+426,Male,18-25,East,Satisfied,Home,Monthly,No
+427,Female,51+,West,Very satisfied,Clothing,Monthly,Yes
+428,Female,26-35,South,Neutral,Home,Monthly,Yes
+429,Male,18-25,West,Very satisfied,Home,Weekly,Yes
+430,Male,36-50,North,Very satisfied,Home,Weekly,Yes
+431,Non-binary,26-35,South,Satisfied,Home,Weekly,No
+432,Female,51+,North,Satisfied,Home,Weekly,No
+433,Female,18-25,East,Very dissatisfied,Books,Rarely,Yes
+434,Male,36-50,East,Very satisfied,Sports,Rarely,Maybe
+435,Female,26-35,West,Satisfied,Electronics,Monthly,Yes
+436,Female,26-35,East,Satisfied,Sports,Weekly,Yes
+437,Male,18-25,South,Dissatisfied,Electronics,Rarely,Yes
+438,Male,26-35,North,Neutral,Electronics,Monthly,Yes
+439,Male,26-35,West,Dissatisfied,Home,Daily,Yes
+440,Female,18-25,East,Satisfied,Clothing,Monthly,Maybe
+441,Female,26-35,North,Satisfied,Clothing,Monthly,Maybe
+442,Female,26-35,North,Satisfied,Electronics,Weekly,Yes
+443,Male,36-50,East,Dissatisfied,Electronics,Daily,Yes
+444,Male,51+,West,Neutral,Electronics,Monthly,No
+445,Male,26-35,North,Neutral,Electronics,Daily,Maybe
+446,Male,26-35,West,Satisfied,Books,Daily,Yes
+447,Male,51+,North,Neutral,Home,Weekly,Yes
+448,Male,51+,West,Neutral,Home,Rarely,Maybe
+449,Non-binary,18-25,West,Neutral,Clothing,Rarely,Maybe
+450,Male,26-35,East,Neutral,Sports,Monthly,Maybe
+451,Female,36-50,North,Very satisfied,Clothing,Monthly,Yes
+452,Female,36-50,East,Satisfied,Electronics,Monthly,No
+453,Male,36-50,South,Satisfied,Sports,Monthly,Yes
+454,Female,26-35,West,Very satisfied,Clothing,Weekly,No
+455,Male,26-35,North,Dissatisfied,Sports,Monthly,Yes
+456,Male,36-50,East,Very satisfied,Clothing,Weekly,No
+457,Female,26-35,South,Satisfied,Home,Monthly,Yes
+458,Male,26-35,West,Very dissatisfied,Electronics,Rarely,No
+459,Male,36-50,North,Very satisfied,Home,Weekly,No
+460,Male,36-50,East,Satisfied,Electronics,Monthly,Maybe
+461,Female,26-35,North,Neutral,Electronics,Daily,No
+462,Male,26-35,West,Very satisfied,Electronics,Rarely,Yes
+463,Male,26-35,South,Dissatisfied,Books,Monthly,Maybe
+464,Male,36-50,West,Very satisfied,Electronics,Rarely,Yes
+465,Female,36-50,North,Dissatisfied,Sports,Monthly,No
+466,Female,36-50,West,Very satisfied,Home,Weekly,No
+467,Male,18-25,East,Dissatisfied,Home,Rarely,Yes
+468,Female,26-35,North,Dissatisfied,Home,Monthly,Maybe
+469,Female,18-25,North,Satisfied,Home,Monthly,Yes
+470,Female,36-50,North,Neutral,Home,Monthly,Yes
+471,Male,26-35,South,Very satisfied,Sports,Weekly,Yes
+472,Male,36-50,South,Very satisfied,Sports,Monthly,Yes
+473,Female,18-25,North,Satisfied,Electronics,Monthly,Yes
+474,Female,26-35,South,Satisfied,Electronics,Rarely,Yes
+475,Female,18-25,South,Dissatisfied,Books,Daily,Yes
+476,Female,36-50,East,Satisfied,Electronics,Monthly,Maybe
+477,Male,36-50,South,Neutral,Electronics,Rarely,Yes
+478,Non-binary,26-35,South,Neutral,Home,Daily,Yes
+479,Female,26-35,South,Dissatisfied,Books,Weekly,Yes
+480,Male,18-25,North,Neutral,Books,Weekly,Maybe
+481,Female,36-50,North,Very dissatisfied,Sports,Monthly,Maybe
+482,Male,51+,South,Very satisfied,Books,Monthly,Yes
+483,Male,36-50,East,Satisfied,Clothing,Rarely,Maybe
+484,Female,51+,South,Dissatisfied,Electronics,Monthly,No
+485,Female,51+,East,Neutral,Clothing,Monthly,Yes
+486,Female,26-35,West,Very satisfied,Electronics,Rarely,Yes
+487,Female,36-50,East,Very dissatisfied,Electronics,Weekly,No
+488,Male,26-35,South,Dissatisfied,Electronics,Monthly,Yes
+489,Male,51+,East,Very satisfied,Home,Monthly,Maybe
+490,Female,36-50,East,Neutral,Home,Weekly,Maybe
+491,Male,36-50,East,Neutral,Books,Rarely,Yes
+492,Female,18-25,West,Very satisfied,Sports,Monthly,Yes
+493,Female,36-50,South,Neutral,Electronics,Rarely,Yes
+494,Female,36-50,East,Very dissatisfied,Books,Rarely,Maybe
+495,Male,26-35,South,Neutral,Electronics,Monthly,No
+496,Male,18-25,West,Dissatisfied,Home,Rarely,No
+497,Non-binary,36-50,North,Very satisfied,Clothing,Monthly,No
+498,Male,26-35,South,Neutral,Electronics,Rarely,Yes
+499,Female,26-35,North,Very satisfied,Electronics,Weekly,Maybe
+500,Male,36-50,West,Very satisfied,Home,Daily,Yes
+501,Female,18-25,West,Satisfied,Electronics,Weekly,Yes
+502,Female,18-25,North,Neutral,Sports,Weekly,Yes
+503,Non-binary,51+,South,Neutral,Clothing,Monthly,Yes
+504,Male,26-35,North,Very dissatisfied,Electronics,Weekly,Yes
+505,Female,26-35,West,Neutral,Clothing,Weekly,Yes
+506,Female,18-25,West,Very satisfied,Clothing,Weekly,Yes
+507,Female,18-25,South,Dissatisfied,Clothing,Monthly,Yes
+508,Male,26-35,South,Very satisfied,Books,Weekly,Yes
+509,Male,26-35,East,Neutral,Clothing,Monthly,Yes
+510,Male,26-35,North,Very satisfied,Clothing,Weekly,Maybe
+511,Male,36-50,South,Very dissatisfied,Electronics,Monthly,No
+512,Female,36-50,South,Satisfied,Clothing,Weekly,Yes
+513,Male,26-35,North,Satisfied,Clothing,Weekly,Yes
+514,Female,36-50,West,Satisfied,Books,Monthly,Maybe
+515,Female,51+,North,Very satisfied,Electronics,Rarely,Yes
+516,Male,36-50,North,Satisfied,Home,Rarely,Yes
+517,Male,18-25,West,Very satisfied,Books,Rarely,Maybe
+518,Male,26-35,North,Dissatisfied,Electronics,Monthly,Yes
+519,Male,36-50,South,Very dissatisfied,Clothing,Monthly,No
+520,Female,18-25,North,Neutral,Sports,Rarely,Yes
+521,Female,18-25,South,Satisfied,Electronics,Monthly,Maybe
+522,Non-binary,51+,West,Very satisfied,Home,Daily,Yes
+523,Male,36-50,North,Very satisfied,Clothing,Rarely,Maybe
+524,Female,18-25,East,Satisfied,Books,Weekly,Maybe
+525,Female,26-35,North,Neutral,Books,Monthly,Yes
+526,Male,18-25,North,Dissatisfied,Clothing,Daily,Maybe
+527,Female,18-25,South,Satisfied,Electronics,Weekly,Maybe
+528,Female,26-35,South,Very dissatisfied,Sports,Monthly,Yes
+529,Male,36-50,East,Satisfied,Home,Weekly,Maybe
+530,Male,51+,East,Neutral,Books,Rarely,Yes
+531,Female,36-50,West,Very satisfied,Clothing,Monthly,Yes
+532,Female,26-35,West,Satisfied,Clothing,Monthly,Yes
+533,Female,26-35,North,Neutral,Home,Monthly,Maybe
+534,Male,26-35,South,Neutral,Electronics,Monthly,Maybe
+535,Male,18-25,North,Satisfied,Home,Rarely,Maybe
+536,Male,36-50,South,Very satisfied,Electronics,Monthly,Yes
+537,Male,18-25,West,Satisfied,Books,Rarely,Maybe
+538,Female,26-35,South,Very satisfied,Clothing,Rarely,Yes
+539,Female,36-50,South,Satisfied,Books,Weekly,Yes
+540,Female,18-25,West,Satisfied,Electronics,Rarely,Yes
+541,Male,36-50,West,Satisfied,Books,Monthly,Maybe
+542,Male,51+,South,Neutral,Home,Rarely,No
+543,Female,36-50,East,Satisfied,Clothing,Monthly,Yes
+544,Female,36-50,South,Satisfied,Electronics,Monthly,No
+545,Female,26-35,West,Satisfied,Electronics,Weekly,Yes
+546,Male,26-35,East,Satisfied,Books,Rarely,Yes
+547,Male,26-35,East,Dissatisfied,Electronics,Monthly,Yes
+548,Non-binary,36-50,North,Satisfied,Electronics,Monthly,Yes
+549,Male,26-35,West,Satisfied,Clothing,Monthly,Yes
+550,Male,26-35,North,Very dissatisfied,Electronics,Monthly,No
+551,Female,18-25,West,Very satisfied,Electronics,Rarely,Yes
+552,Female,36-50,East,Neutral,Clothing,Rarely,Yes
+553,Female,36-50,East,Satisfied,Electronics,Rarely,No
+554,Male,18-25,West,Dissatisfied,Electronics,Monthly,Yes
+555,Female,36-50,East,Satisfied,Clothing,Rarely,Yes
+556,Female,51+,West,Satisfied,Electronics,Monthly,Yes
+557,Male,18-25,South,Satisfied,Electronics,Monthly,Yes
+558,Male,26-35,West,Dissatisfied,Books,Daily,Yes
+559,Female,51+,West,Neutral,Books,Rarely,Yes
+560,Male,26-35,South,Very satisfied,Electronics,Monthly,Yes
+561,Female,36-50,East,Neutral,Books,Weekly,Yes
+562,Male,18-25,East,Very satisfied,Sports,Monthly,No
+563,Male,18-25,East,Very satisfied,Sports,Monthly,Yes
+564,Male,18-25,North,Neutral,Clothing,Rarely,Yes
+565,Female,51+,North,Satisfied,Electronics,Monthly,No
+566,Male,18-25,West,Dissatisfied,Clothing,Monthly,No
+567,Non-binary,51+,West,Neutral,Electronics,Rarely,Yes
+568,Male,26-35,West,Very dissatisfied,Clothing,Monthly,Maybe
+569,Female,18-25,South,Neutral,Sports,Weekly,No
+570,Male,26-35,South,Satisfied,Clothing,Rarely,Yes
+571,Female,26-35,North,Neutral,Books,Rarely,Maybe
+572,Female,18-25,South,Dissatisfied,Electronics,Daily,Yes
+573,Male,51+,West,Very dissatisfied,Electronics,Rarely,Yes
+574,Female,51+,South,Very satisfied,Sports,Monthly,No
+575,Male,18-25,West,Dissatisfied,Clothing,Weekly,Maybe
+576,Female,36-50,East,Very satisfied,Electronics,Daily,Yes
+577,Female,26-35,East,Satisfied,Books,Weekly,Yes
+578,Male,51+,North,Satisfied,Home,Monthly,Yes
+579,Male,18-25,West,Dissatisfied,Electronics,Weekly,Yes
+580,Male,26-35,East,Satisfied,Clothing,Weekly,Yes
+581,Male,26-35,West,Neutral,Clothing,Monthly,Maybe
+582,Male,36-50,South,Neutral,Clothing,Monthly,Yes
+583,Male,18-25,East,Very satisfied,Electronics,Rarely,Yes
+584,Male,36-50,South,Neutral,Clothing,Weekly,Yes
+585,Female,51+,West,Satisfied,Electronics,Daily,Yes
+586,Male,26-35,North,Neutral,Home,Monthly,Yes
+587,Male,26-35,East,Very satisfied,Books,Monthly,Yes
+588,Male,26-35,North,Very satisfied,Sports,Rarely,Maybe
+589,Non-binary,26-35,East,Very satisfied,Books,Monthly,Yes
+590,Female,26-35,East,Dissatisfied,Electronics,Rarely,Yes
+591,Male,26-35,East,Satisfied,Clothing,Weekly,Yes
+592,Female,51+,North,Satisfied,Books,Monthly,Yes
+593,Female,18-25,East,Satisfied,Clothing,Monthly,Yes
+594,Non-binary,26-35,South,Neutral,Books,Weekly,Maybe
+595,Female,18-25,West,Very satisfied,Electronics,Monthly,Maybe
+596,Male,26-35,East,Very satisfied,Home,Daily,Yes
+597,Male,18-25,East,Satisfied,Sports,Monthly,Maybe
+598,Female,51+,South,Neutral,Clothing,Daily,No
+599,Non-binary,26-35,North,Dissatisfied,Home,Rarely,Yes
+600,Male,51+,North,Very satisfied,Electronics,Weekly,Yes
+601,Male,26-35,South,Dissatisfied,Electronics,Monthly,Yes
+602,Female,18-25,East,Very satisfied,Clothing,Weekly,Yes
+603,Male,18-25,South,Satisfied,Clothing,Weekly,Yes
+604,Male,26-35,South,Very satisfied,Books,Monthly,Maybe
+605,Male,18-25,West,Dissatisfied,Books,Rarely,Yes
+606,Non-binary,36-50,West,Neutral,Electronics,Monthly,Yes
+607,Female,36-50,East,Satisfied,Electronics,Monthly,Yes
+608,Female,36-50,South,Satisfied,Electronics,Rarely,Yes
+609,Male,51+,North,Neutral,Sports,Monthly,No
+610,Female,26-35,North,Very satisfied,Books,Weekly,Maybe
+611,Male,26-35,West,Very satisfied,Home,Rarely,Maybe
+612,Male,26-35,North,Dissatisfied,Clothing,Rarely,Maybe
+613,Non-binary,18-25,South,Very satisfied,Electronics,Monthly,Yes
+614,Female,26-35,West,Neutral,Books,Weekly,Maybe
+615,Male,26-35,West,Satisfied,Clothing,Weekly,Yes
+616,Female,36-50,East,Very satisfied,Clothing,Monthly,Yes
+617,Non-binary,26-35,West,Dissatisfied,Clothing,Rarely,Yes
+618,Female,18-25,West,Dissatisfied,Books,Weekly,Yes
+619,Male,36-50,North,Neutral,Books,Monthly,Yes
+620,Male,36-50,West,Satisfied,Electronics,Weekly,No
+621,Male,51+,West,Neutral,Home,Rarely,No
+622,Female,18-25,East,Satisfied,Books,Monthly,Yes
+623,Non-binary,36-50,East,Neutral,Clothing,Rarely,Yes
+624,Non-binary,36-50,West,Neutral,Home,Rarely,No
+625,Female,18-25,North,Neutral,Electronics,Monthly,Yes
+626,Male,36-50,South,Satisfied,Sports,Weekly,No
+627,Female,18-25,North,Neutral,Electronics,Monthly,Yes
+628,Female,36-50,South,Very satisfied,Electronics,Weekly,Maybe
+629,Male,36-50,East,Very satisfied,Home,Rarely,Yes
+630,Male,36-50,West,Neutral,Clothing,Weekly,Yes
+631,Female,18-25,North,Very satisfied,Home,Rarely,No
+632,Male,51+,North,Neutral,Clothing,Monthly,Yes
+633,Female,51+,South,Neutral,Books,Weekly,Yes
+634,Male,51+,South,Satisfied,Electronics,Monthly,Maybe
+635,Male,26-35,West,Very satisfied,Home,Monthly,Yes
+636,Non-binary,26-35,West,Dissatisfied,Electronics,Monthly,Yes
+637,Non-binary,18-25,East,Very satisfied,Home,Weekly,Maybe
+638,Female,18-25,West,Dissatisfied,Clothing,Weekly,Yes
+639,Female,18-25,North,Very satisfied,Clothing,Monthly,Maybe
+640,Non-binary,36-50,North,Neutral,Electronics,Monthly,Yes
+641,Female,26-35,North,Dissatisfied,Sports,Rarely,No
+642,Female,36-50,South,Dissatisfied,Home,Monthly,Yes
+643,Female,36-50,West,Dissatisfied,Clothing,Weekly,Yes
+644,Female,51+,West,Dissatisfied,Sports,Daily,No
+645,Female,51+,South,Satisfied,Sports,Weekly,Yes
+646,Female,36-50,North,Satisfied,Clothing,Monthly,No
+647,Female,36-50,South,Satisfied,Electronics,Rarely,Yes
+648,Female,18-25,East,Dissatisfied,Clothing,Rarely,Yes
+649,Male,18-25,North,Dissatisfied,Clothing,Rarely,Yes
+650,Female,26-35,North,Neutral,Clothing,Weekly,Maybe
+651,Male,36-50,East,Neutral,Sports,Rarely,No
+652,Female,36-50,North,Satisfied,Electronics,Weekly,Yes
+653,Female,26-35,North,Dissatisfied,Home,Rarely,No
+654,Female,51+,West,Very satisfied,Sports,Weekly,Yes
+655,Male,36-50,North,Very satisfied,Home,Weekly,No
+656,Male,18-25,North,Very dissatisfied,Clothing,Monthly,Yes
+657,Female,26-35,South,Satisfied,Books,Weekly,Yes
+658,Non-binary,51+,East,Satisfied,Home,Monthly,Yes
+659,Male,26-35,North,Dissatisfied,Electronics,Monthly,Yes
+660,Male,26-35,South,Dissatisfied,Home,Monthly,Maybe
+661,Male,26-35,North,Very satisfied,Clothing,Monthly,No
+662,Female,26-35,South,Very satisfied,Clothing,Weekly,No
+663,Female,36-50,South,Neutral,Home,Daily,Yes
+664,Female,18-25,East,Neutral,Electronics,Rarely,No
+665,Female,36-50,South,Very satisfied,Home,Monthly,Yes
+666,Female,51+,West,Neutral,Books,Monthly,No
+667,Male,36-50,North,Satisfied,Books,Rarely,Yes
+668,Female,51+,West,Satisfied,Clothing,Monthly,Yes
+669,Female,18-25,West,Very dissatisfied,Electronics,Weekly,Maybe
+670,Female,26-35,East,Satisfied,Books,Monthly,Yes
+671,Non-binary,18-25,West,Very satisfied,Home,Rarely,Maybe
+672,Female,36-50,East,Satisfied,Electronics,Monthly,Yes
+673,Male,51+,North,Satisfied,Clothing,Monthly,No
+674,Male,26-35,North,Very dissatisfied,Home,Monthly,Yes
+675,Female,26-35,East,Very satisfied,Books,Monthly,Yes
+676,Male,26-35,South,Satisfied,Books,Daily,Yes
+677,Male,26-35,East,Neutral,Electronics,Weekly,Maybe
+678,Male,26-35,East,Satisfied,Books,Monthly,Yes
+679,Non-binary,36-50,West,Neutral,Home,Monthly,Yes
+680,Male,18-25,North,Satisfied,Clothing,Rarely,No
+681,Male,18-25,North,Satisfied,Electronics,Weekly,Yes
+682,Female,18-25,North,Very dissatisfied,Electronics,Weekly,Maybe
+683,Female,18-25,East,Satisfied,Clothing,Weekly,Yes
+684,Male,36-50,East,Neutral,Books,Monthly,Yes
+685,Female,18-25,North,Neutral,Electronics,Monthly,Yes
+686,Male,26-35,East,Satisfied,Clothing,Monthly,Maybe
+687,Female,36-50,North,Satisfied,Books,Weekly,No
+688,Female,26-35,West,Neutral,Electronics,Monthly,No
+689,Male,51+,West,Neutral,Electronics,Rarely,No
+690,Female,36-50,East,Satisfied,Books,Monthly,Maybe
+691,Male,26-35,South,Neutral,Home,Monthly,Maybe
+692,Female,18-25,North,Dissatisfied,Books,Weekly,Maybe
+693,Female,51+,West,Very satisfied,Home,Rarely,Yes
+694,Male,26-35,South,Very satisfied,Books,Monthly,Yes
+695,Male,26-35,West,Satisfied,Home,Rarely,Yes
+696,Non-binary,36-50,North,Neutral,Home,Monthly,Maybe
+697,Female,18-25,North,Dissatisfied,Home,Weekly,Maybe
+698,Female,26-35,West,Dissatisfied,Books,Monthly,No
+699,Male,36-50,East,Satisfied,Sports,Monthly,Yes
+700,Male,36-50,North,Dissatisfied,Electronics,Monthly,Yes
+701,Female,51+,South,Neutral,Electronics,Rarely,No
+702,Male,26-35,South,Neutral,Home,Weekly,Yes
+703,Male,36-50,East,Neutral,Home,Weekly,No
+704,Female,18-25,West,Neutral,Home,Weekly,Yes
+705,Male,26-35,North,Dissatisfied,Home,Rarely,Yes
+706,Female,18-25,North,Neutral,Clothing,Weekly,Maybe
+707,Female,18-25,East,Very satisfied,Sports,Monthly,Yes
+708,Male,36-50,North,Neutral,Electronics,Monthly,Maybe
+709,Female,18-25,North,Neutral,Sports,Monthly,Yes
+710,Male,26-35,South,Very satisfied,Books,Rarely,Yes
+711,Non-binary,26-35,South,Very satisfied,Electronics,Weekly,Maybe
+712,Non-binary,18-25,West,Neutral,Home,Weekly,Maybe
+713,Female,36-50,South,Satisfied,Electronics,Monthly,Maybe
+714,Male,36-50,West,Satisfied,Electronics,Monthly,No
+715,Female,36-50,South,Satisfied,Electronics,Monthly,No
+716,Non-binary,36-50,West,Very satisfied,Electronics,Monthly,Maybe
+717,Male,26-35,North,Very dissatisfied,Home,Rarely,Yes
+718,Female,51+,North,Neutral,Clothing,Rarely,Yes
+719,Male,18-25,South,Satisfied,Sports,Rarely,Yes
+720,Male,36-50,North,Very satisfied,Clothing,Rarely,Maybe
+721,Female,51+,West,Satisfied,Home,Daily,Yes
+722,Female,26-35,East,Satisfied,Sports,Weekly,Yes
+723,Male,26-35,East,Very satisfied,Electronics,Monthly,Yes
+724,Male,36-50,North,Dissatisfied,Electronics,Monthly,Yes
+725,Female,36-50,North,Neutral,Clothing,Monthly,Maybe
+726,Male,26-35,South,Dissatisfied,Home,Monthly,Maybe
+727,Female,36-50,South,Neutral,Home,Rarely,Maybe
+728,Female,26-35,West,Neutral,Clothing,Monthly,Maybe
+729,Female,51+,West,Satisfied,Electronics,Weekly,Yes
+730,Male,26-35,East,Very dissatisfied,Home,Weekly,No
+731,Female,36-50,West,Neutral,Books,Monthly,Yes
+732,Male,26-35,North,Neutral,Electronics,Monthly,No
+733,Female,26-35,North,Neutral,Home,Weekly,Yes
+734,Male,26-35,South,Satisfied,Sports,Weekly,Yes
+735,Male,26-35,North,Very dissatisfied,Electronics,Rarely,Yes
+736,Male,36-50,West,Very satisfied,Electronics,Monthly,Maybe
+737,Female,36-50,West,Satisfied,Home,Weekly,Yes
+738,Female,26-35,South,Very satisfied,Books,Weekly,No
+739,Male,26-35,West,Dissatisfied,Sports,Rarely,Yes
+740,Female,51+,South,Very dissatisfied,Sports,Rarely,Yes
+741,Male,51+,North,Satisfied,Electronics,Monthly,Maybe
+742,Female,26-35,South,Neutral,Books,Monthly,Yes
+743,Male,36-50,West,Satisfied,Books,Rarely,Yes
+744,Female,26-35,West,Very satisfied,Electronics,Weekly,Yes
+745,Female,18-25,East,Very satisfied,Electronics,Monthly,Yes
+746,Non-binary,26-35,South,Satisfied,Books,Daily,Yes
+747,Female,36-50,West,Satisfied,Clothing,Monthly,Yes
+748,Male,36-50,East,Neutral,Clothing,Monthly,No
+749,Male,51+,North,Satisfied,Electronics,Rarely,Maybe
+750,Male,18-25,North,Very satisfied,Books,Monthly,Yes
+751,Male,26-35,North,Satisfied,Clothing,Rarely,No
+752,Male,26-35,North,Satisfied,Home,Rarely,No
+753,Female,36-50,North,Very satisfied,Clothing,Weekly,Yes
+754,Female,26-35,South,Very satisfied,Home,Rarely,No
+755,Female,36-50,North,Satisfied,Clothing,Monthly,Yes
+756,Male,36-50,West,Dissatisfied,Books,Monthly,Maybe
+757,Female,36-50,West,Very satisfied,Electronics,Daily,Yes
+758,Male,26-35,North,Dissatisfied,Home,Monthly,Yes
+759,Female,18-25,North,Satisfied,Home,Weekly,Yes
+760,Female,18-25,East,Neutral,Home,Weekly,Maybe
+761,Male,36-50,South,Dissatisfied,Books,Weekly,Yes
+762,Male,18-25,West,Satisfied,Clothing,Monthly,Maybe
+763,Male,18-25,West,Very dissatisfied,Books,Rarely,Maybe
+764,Female,51+,West,Very satisfied,Sports,Monthly,Yes
+765,Male,26-35,West,Satisfied,Books,Weekly,Maybe
+766,Female,26-35,North,Very satisfied,Sports,Rarely,No
+767,Female,18-25,North,Satisfied,Clothing,Monthly,Yes
+768,Female,36-50,South,Satisfied,Home,Daily,Yes
+769,Female,26-35,East,Dissatisfied,Home,Weekly,Maybe
+770,Female,26-35,North,Satisfied,Home,Rarely,Yes
+771,Female,26-35,West,Neutral,Home,Monthly,Yes
+772,Male,51+,East,Very dissatisfied,Clothing,Weekly,Maybe
+773,Female,26-35,West,Satisfied,Books,Daily,Maybe
+774,Female,36-50,South,Satisfied,Sports,Weekly,Yes
+775,Non-binary,26-35,North,Very dissatisfied,Clothing,Rarely,Yes
+776,Female,26-35,South,Neutral,Sports,Rarely,Maybe
+777,Female,18-25,West,Dissatisfied,Electronics,Monthly,Maybe
+778,Female,36-50,North,Satisfied,Electronics,Weekly,No
+779,Male,18-25,North,Neutral,Clothing,Monthly,Yes
+780,Male,26-35,North,Satisfied,Home,Rarely,No
+781,Male,26-35,North,Dissatisfied,Electronics,Rarely,No
+782,Male,26-35,South,Very dissatisfied,Books,Rarely,Yes
+783,Male,26-35,North,Satisfied,Clothing,Monthly,Maybe
+784,Female,26-35,East,Very satisfied,Electronics,Monthly,Yes
+785,Female,26-35,North,Very satisfied,Electronics,Rarely,No
+786,Female,18-25,West,Satisfied,Electronics,Rarely,Yes
+787,Male,26-35,South,Satisfied,Clothing,Weekly,Yes
+788,Male,36-50,East,Neutral,Clothing,Rarely,Yes
+789,Male,36-50,West,Satisfied,Electronics,Rarely,Yes
+790,Male,36-50,North,Dissatisfied,Sports,Rarely,Yes
+791,Male,36-50,West,Satisfied,Home,Monthly,Yes
+792,Female,36-50,South,Satisfied,Clothing,Monthly,No
+793,Male,18-25,South,Satisfied,Clothing,Rarely,Yes
+794,Male,26-35,North,Very satisfied,Electronics,Monthly,Yes
+795,Female,18-25,East,Satisfied,Books,Monthly,Maybe
+796,Male,36-50,South,Neutral,Sports,Weekly,Yes
+797,Female,26-35,South,Dissatisfied,Home,Monthly,Yes
+798,Male,36-50,East,Very satisfied,Electronics,Monthly,Yes
+799,Male,36-50,North,Neutral,Electronics,Monthly,Maybe
+800,Male,26-35,West,Satisfied,Sports,Weekly,Yes
