@@ -276,7 +276,7 @@ result = chi_square_goodness_of_fit(
 ```bash
 # 1. Clone the repo
 git clone https://github.com/susmitag6/Hypothesis-Testing-Analysis
-cd hypothesis-testing-portfolio
+cd Hypothesis-Testing-Analysis
 
 # 2. Install dependencies
 pip install -r requirements.txt
