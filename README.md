@@ -275,7 +275,7 @@ result = chi_square_goodness_of_fit(
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/hypothesis-testing-portfolio
+git clone https://github.com/susmitag6/Hypothesis-Testing-Analysis
 cd hypothesis-testing-portfolio
 
 # 2. Install dependencies
